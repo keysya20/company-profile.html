@@ -1,0 +1,54 @@
+:root{
+    --primay: #949597;
+    --backgroud: #ecedef;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--backgroud);
+    color: #242731;
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 7%;
+    background-color: var(--primay);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999999;
+}
+
+.navbar .navbar-logo{
+    color: #242731;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.navbar .navbar-contact a{
+    color: #ecedef;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0 16px;
+    display: inline-block;
+}
+
+/* hero section */
+.hero{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(files\foto-sekolah.jpg);
+}
